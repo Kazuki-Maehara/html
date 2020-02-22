@@ -5,6 +5,35 @@
 		<title>My test page</title>
 	</head>
 	<body>
+		<p>I'm creating a link to
+		<a href="https://developer.mozilla.org/ja/">MDN web docs</a>.
+		</p>
+		<p>I'm creating a link to
+		<a href="https://www.google.com"
+			title="Showing the tooltip!">the Google's search engine</a>.(Putting the mouse cursor on the hyperlink, you can see the tooltip)
+		</p>
+		<a href="https://developer.mozilla.org/ja/">
+			<img src="sample_button.jpg" alt="A button logo that links to the Google!">
+		</a>
+		<a href="example.html#jump-id">
+		<p> Jump to "The Crushing Bore" line.</p>
+		</a>
+
+		
+		<!-- some link tests -->
+
+		<p><a href="sample_pdf.pdf" target="_blank">
+			Show the Sample PDF
+		</a>.</p>
+		<p><a href="sample_pdf.pdf" download="sample_pdf_default_name.pdf">
+			Download the Sample PDF
+		</a>.</p>
+
+		<!-- mail tests -->
+		<p><a href="mailto:sample@sample.co.jp?cc=sample2@example.co.jp&bcc=sample3@example.co.jp&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">Open the mail application</a>.</p>
+
+
+
 		<!-- scientific names -->
 		<p>
 			The Ruby-throated Hummingbird (<i>Archilochus colubris</i>)
@@ -30,7 +59,7 @@
 				lettuce between the slices of bread.
 			</li>
 		</ol>
-		<h1>The Crushing Bore</h1>
+		<h1 id="jump-id">The Crushing Bore</h1>
 		<p>By Chris Mills</p>
 		<h2>Capter 1: The dark night</h2>
 		<p>It was a dark night. Somewhere, an owl hooted. The rain lashed down no the ...</p>

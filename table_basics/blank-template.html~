@@ -98,7 +98,7 @@
 		</colgroup>
 		<tr>
 			<th>Data 1</th>
-			<th>Data 2</th>
+			<th style="background-color: yellow">Data 2</th>
 		</tr>
 		<tr>
 			<td>Calcutta</td>

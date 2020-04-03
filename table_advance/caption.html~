@@ -1,0 +1,23 @@
+<style>
+th {
+	border-width : 1px;
+	border-style : solid;
+}
+td {
+	border-width : 1px;
+	border-style : solid;
+}
+</style>
+<table>
+	<caption>Dinosaurs in the Jurassic period</caption>
+	<tr>
+		<th>sample</th>
+		<th>sample</th>
+		<th>sample</th>
+	</tr>
+	<tr>
+		<td>sample data</td>
+		<td>sample data</td>
+		<td>sample data</td>
+	</tr>
+</table>

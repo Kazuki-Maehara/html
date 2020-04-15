@@ -1,0 +1,15 @@
+@import "styles.css";
+
+
+body {
+	background-color: pink;
+}
+
+
+@media (min-width: 500px) {
+	body {
+	background-color: blue;
+	}
+}
+
+
